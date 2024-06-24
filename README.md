@@ -8,7 +8,7 @@ This repository provides a large cap index fund manager tool for the top 10 cryp
 The structure of this code is largely derived from [FreeCodeCamp's Algorithmic Trading Using Python - Full Course](https://www.youtube.com/watch?v=xfzGZB4HhEE), with the following key differences:
 
 - **API Utilized**: This code uses CoinGecko's API to manage a large cap index fund for the top 10 cryptocurrencies by market cap. This replaces the use of IEX Cloud's Sandbox API for US stock trading, which is deprecated and inaccessible at the time of publication.
-- **Updated Syntax**: The code includes updated syntax for Python modules, such as pandas, to ensure compatibility with the latest versions.
+- **Updated Syntax**: The code includes updated syntax for Python modules to ensure compatibility with the latest versions.
 
 ## Features
 
