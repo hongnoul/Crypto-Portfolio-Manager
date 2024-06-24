@@ -36,15 +36,6 @@ The structure of this code is largely derived from [FreeCodeCamp's Algorithmic T
    pip install -r requirements.txt
    ```
 
-### Usage
-
-1. Run the script:
-   ```bash
-   python 06_Xlsxwriter.py
-   ```
-
-2. Follow the prompts to enter your portfolio size.
-
 ## Acknowledgements
 
 This project is based on concepts and structures from [FreeCodeCamp's Algorithmic Trading Using Python - Full Course](https://www.youtube.com/watch?v=xfzGZB4HhEE).
