@@ -26,22 +26,22 @@ The structure of this code is largely derived from [FreeCodeCamp's Algorithmic T
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/Crypto-Portfolio-Manager.git
    cd Crypto-Portfolio-Manager
-   \`\`\`
+   ```
 
 2. Install the required packages:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ### Usage
 
 1. Run the script:
-   \`\`\`bash
+   ```bash
    python 06_Xlsxwriter.py
-   \`\`\`
+   ```
 
 2. Follow the prompts to enter your portfolio size.
 
