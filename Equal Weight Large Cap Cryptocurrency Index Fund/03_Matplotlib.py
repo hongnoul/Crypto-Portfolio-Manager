@@ -2,7 +2,7 @@ import requests
 import matplotlib.pyplot as plt
 
 def get_top_10_cryptocurrencies():
-    url = "https://api.coingecko.com/api/v3/coins/markets"
+    url = 'https://api.coingecko.com/api/v3/coins/markets'
     params = {
         'vs_currency': 'usd',
         'order': 'market_cap_desc',
@@ -31,4 +31,4 @@ top_10_cryptos = get_top_10_cryptocurrencies()
 if top_10_cryptos:
     visualize_cryptocurrencies(top_10_cryptos)
 else:
-    print("Failed to retrieve data.")
+    print('Failed to retrieve data.')

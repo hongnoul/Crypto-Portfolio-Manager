@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 
 def get_top_10_cryptocurrencies():
-    url = "https://api.coingecko.com/api/v3/coins/markets"
+    url = 'https://api.coingecko.com/api/v3/coins/markets'
     params = {
         'vs_currency': 'usd',
         'order': 'market_cap_desc',
@@ -30,7 +30,7 @@ if top_10_cryptos:
         new_data = pd.DataFrame([[ticker, price, market_cap, 'N/A']], columns = columns)
         final_dataframe = pd.concat([final_dataframe, new_data], ignore_index = True)
 else:
-    print("Failed to retrieve data.")
+    print('Failed to retrieve data.')
 
 final_dataframe.to_csv('top_10_cryptocurrencies.csv', index=False)
 
